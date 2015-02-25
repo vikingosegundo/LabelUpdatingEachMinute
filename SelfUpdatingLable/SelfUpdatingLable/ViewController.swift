@@ -18,10 +18,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.settingTodayLabel()
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "settingTodayLabel", name: UIApplicationDidBecomeActiveNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "settingTodayLabel", name: "DateChangedNewDay", object: nil)
 
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.settingTodayLabel()
     }
     
     func settingTodayLabel() {
