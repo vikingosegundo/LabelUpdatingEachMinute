@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6432F7AE1A9D2CD700287BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432F7AD1A9D2CD700287BBE /* AppDelegate.swift */; };
+		6432F7B01A9D2CD700287BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432F7AF1A9D2CD700287BBE /* ViewController.swift */; };
+		6432F7B31A9D2CD700287BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6432F7B11A9D2CD700287BBE /* Main.storyboard */; };
+		6432F7B51A9D2CD700287BBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6432F7B41A9D2CD700287BBE /* Images.xcassets */; };
+		6432F7B81A9D2CD700287BBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6432F7B61A9D2CD700287BBE /* LaunchScreen.xib */; };
+		6432F7C41A9D2CD700287BBE /* SelfUpdatingLableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432F7C31A9D2CD700287BBE /* SelfUpdatingLableTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6432F7BE1A9D2CD700287BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6432F7A01A9D2CD700287BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6432F7A71A9D2CD700287BBE;
+			remoteInfo = SelfUpdatingLable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6432F7A81A9D2CD700287BBE /* SelfUpdatingLable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfUpdatingLable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6432F7AC1A9D2CD700287BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6432F7AD1A9D2CD700287BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6432F7AF1A9D2CD700287BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6432F7B21A9D2CD700287BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6432F7B41A9D2CD700287BBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6432F7B71A9D2CD700287BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6432F7BD1A9D2CD700287BBE /* SelfUpdatingLableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfUpdatingLableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6432F7C21A9D2CD700287BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6432F7C31A9D2CD700287BBE /* SelfUpdatingLableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUpdatingLableTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6432F7A51A9D2CD700287BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6432F7BA1A9D2CD700287BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6432F79F1A9D2CD700287BBE = {
+			isa = PBXGroup;
+			children = (
+				6432F7AA1A9D2CD700287BBE /* SelfUpdatingLable */,
+				6432F7C01A9D2CD700287BBE /* SelfUpdatingLableTests */,
+				6432F7A91A9D2CD700287BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6432F7A91A9D2CD700287BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6432F7A81A9D2CD700287BBE /* SelfUpdatingLable.app */,
+				6432F7BD1A9D2CD700287BBE /* SelfUpdatingLableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6432F7AA1A9D2CD700287BBE /* SelfUpdatingLable */ = {
+			isa = PBXGroup;
+			children = (
+				6432F7AD1A9D2CD700287BBE /* AppDelegate.swift */,
+				6432F7AF1A9D2CD700287BBE /* ViewController.swift */,
+				6432F7B11A9D2CD700287BBE /* Main.storyboard */,
+				6432F7B41A9D2CD700287BBE /* Images.xcassets */,
+				6432F7B61A9D2CD700287BBE /* LaunchScreen.xib */,
+				6432F7AB1A9D2CD700287BBE /* Supporting Files */,
+			);
+			path = SelfUpdatingLable;
+			sourceTree = "<group>";
+		};
+		6432F7AB1A9D2CD700287BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6432F7AC1A9D2CD700287BBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6432F7C01A9D2CD700287BBE /* SelfUpdatingLableTests */ = {
+			isa = PBXGroup;
+			children = (
+				6432F7C31A9D2CD700287BBE /* SelfUpdatingLableTests.swift */,
+				6432F7C11A9D2CD700287BBE /* Supporting Files */,
+			);
+			path = SelfUpdatingLableTests;
+			sourceTree = "<group>";
+		};
+		6432F7C11A9D2CD700287BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6432F7C21A9D2CD700287BBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6432F7A71A9D2CD700287BBE /* SelfUpdatingLable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6432F7C71A9D2CD700287BBE /* Build configuration list for PBXNativeTarget "SelfUpdatingLable" */;
+			buildPhases = (
+				6432F7A41A9D2CD700287BBE /* Sources */,
+				6432F7A51A9D2CD700287BBE /* Frameworks */,
+				6432F7A61A9D2CD700287BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfUpdatingLable;
+			productName = SelfUpdatingLable;
+			productReference = 6432F7A81A9D2CD700287BBE /* SelfUpdatingLable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6432F7BC1A9D2CD700287BBE /* SelfUpdatingLableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6432F7CA1A9D2CD700287BBE /* Build configuration list for PBXNativeTarget "SelfUpdatingLableTests" */;
+			buildPhases = (
+				6432F7B91A9D2CD700287BBE /* Sources */,
+				6432F7BA1A9D2CD700287BBE /* Frameworks */,
+				6432F7BB1A9D2CD700287BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6432F7BF1A9D2CD700287BBE /* PBXTargetDependency */,
+			);
+			name = SelfUpdatingLableTests;
+			productName = SelfUpdatingLableTests;
+			productReference = 6432F7BD1A9D2CD700287BBE /* SelfUpdatingLableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6432F7A01A9D2CD700287BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GoEuro;
+				TargetAttributes = {
+					6432F7A71A9D2CD700287BBE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6432F7BC1A9D2CD700287BBE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6432F7A71A9D2CD700287BBE;
+					};
+				};
+			};
+			buildConfigurationList = 6432F7A31A9D2CD700287BBE /* Build configuration list for PBXProject "SelfUpdatingLable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6432F79F1A9D2CD700287BBE;
+			productRefGroup = 6432F7A91A9D2CD700287BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6432F7A71A9D2CD700287BBE /* SelfUpdatingLable */,
+				6432F7BC1A9D2CD700287BBE /* SelfUpdatingLableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6432F7A61A9D2CD700287BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6432F7B31A9D2CD700287BBE /* Main.storyboard in Resources */,
+				6432F7B81A9D2CD700287BBE /* LaunchScreen.xib in Resources */,
+				6432F7B51A9D2CD700287BBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6432F7BB1A9D2CD700287BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6432F7A41A9D2CD700287BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6432F7B01A9D2CD700287BBE /* ViewController.swift in Sources */,
+				6432F7AE1A9D2CD700287BBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6432F7B91A9D2CD700287BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6432F7C41A9D2CD700287BBE /* SelfUpdatingLableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6432F7BF1A9D2CD700287BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6432F7A71A9D2CD700287BBE /* SelfUpdatingLable */;
+			targetProxy = 6432F7BE1A9D2CD700287BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6432F7B11A9D2CD700287BBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6432F7B21A9D2CD700287BBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6432F7B61A9D2CD700287BBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6432F7B71A9D2CD700287BBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6432F7C51A9D2CD700287BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6432F7C61A9D2CD700287BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6432F7C81A9D2CD700287BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfUpdatingLable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6432F7C91A9D2CD700287BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfUpdatingLable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6432F7CB1A9D2CD700287BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfUpdatingLableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfUpdatingLable.app/SelfUpdatingLable";
+			};
+			name = Debug;
+		};
+		6432F7CC1A9D2CD700287BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfUpdatingLableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfUpdatingLable.app/SelfUpdatingLable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6432F7A31A9D2CD700287BBE /* Build configuration list for PBXProject "SelfUpdatingLable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6432F7C51A9D2CD700287BBE /* Debug */,
+				6432F7C61A9D2CD700287BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6432F7C71A9D2CD700287BBE /* Build configuration list for PBXNativeTarget "SelfUpdatingLable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6432F7C81A9D2CD700287BBE /* Debug */,
+				6432F7C91A9D2CD700287BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6432F7CA1A9D2CD700287BBE /* Build configuration list for PBXNativeTarget "SelfUpdatingLableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6432F7CB1A9D2CD700287BBE /* Debug */,
+				6432F7CC1A9D2CD700287BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6432F7A01A9D2CD700287BBE /* Project object */;
+}
